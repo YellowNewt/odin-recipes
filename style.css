@@ -1,0 +1,32 @@
+/* style */
+.body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-kitchen {
+    background-color: grey;
+    border: 2px black;
+    background-size:100%;
+    padding-left: 300px;
+    padding-bottom: 800px;
+    background-image: url("images/bg-frenchkitchen.jpg");
+    background-repeat: no-repeat;
+}
+
+#title {
+    text-align:center;
+    font-weight: bold;
+    font-size: 40px;
+    color: chocolate;
+    position: relative;
+    right: 150px;
+}
+
+.image.row {
+    width: auto;
+    clip-path: circle();
+    position: relative;
+    right: 100px;
+}
+/* The above image-row holds all three pictures as if they were 1. */
